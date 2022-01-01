@@ -1,0 +1,33 @@
+baseURL = 'http://example.org/'
+languageCode = 'de-de'
+title = 'EnSFr'
+theme = "hugo-business-frontpage-theme"
+
+[params.footer]
+    copyright = "EnSFr e.V."
+
+
+[params]
+    author = "EnSFr"
+    description = "Entdecker und Seefahrer Fördervereinigung e.V."
+  
+    [params.header]
+        name = "Entdecker und Seefahrer Fördervereinigung e.V."
+        tagline = "Die Entdecker und Seefahrer Fördervereinigung e.V. (EnSFr, DSV-Nr. HA072) ist ein 1982 gegründeter Segelverein mit Sitz in Hamburg."
+
+
+    [params.navbar]
+        name = "EnSFr"
+        url = "#"
+
+
+        [[params.navbar.nav]]
+        name = "Bundesliga"
+        url = "articles/bundesliga"
+        
+        [[params.navbar.nav]]
+        name = "25 Jahr Fest"
+        url = "#"
+        [[params.navbar.nav]]
+        name = "Rechtliches"
+        url = "#"
