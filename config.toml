@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://ursaw.github.io/'
 languageCode = 'de-de'
 title = 'EnSFr'
 theme = "hugo-business-frontpage-theme"
